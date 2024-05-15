@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" type="image/x-icon">
 </head> 
 <body>
-    <nav class="bg-white w-full h-[80px] font-semibold flex items-center px-[54px] justify-between sticky top-2 rounded-full">
+    <nav class="bg-white w-full h-[80px] font-semibold flex items-center px-[54px] justify-between sticky top-2 z-10 rounded-full">
         <div class="flex ">
             <div class="mr-9">
                 <img src="https://a.slack-edge.com/3d92b39/marketing/img/nav/slack-salesforce-logo-nav-black.png" alt="website logo">
@@ -119,9 +119,73 @@
                     <img class="absolute left-[6%] top-[25%]" src="https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-chart-upward-trend.png">
         </section>
         <!-- Section 6 -->
-        <section></section>
+        <section class="w-full">
+            <div class="flex justify-between w-full">
+                <div class="mb-4 w-1/2 relative flex justify-center items-center">
+                    <video class="rounded-r-full" src="https://a.slack-edge.com/1b4e2a3/marketing/img/homepage/true-prospects/customer-showcase/Vodafone_08.mp4" autoplay loop muted></video>
+                    <svg width="84" height="60" class="bg-[#36c5f0] absolute"><g fill="none" transform="translate(0 .564)"><rect height="59" rx="4" width="84"></rect><path d="M49 29.95L35 36.9V23L49 29.95Z" fill="#fff"></path></g></svg>
+                </div>
+                <div class="w-[48%] p-8 flex flex-col">
+                    <p class="text-[28px] mb-4">‘Many technology employees were gravitating naturally to Slack. So we followed our users to what has become one of our most important tools.’</p>
+                    <span class="font-bold">Matt Beal</span>
+                    <span>Director of Technology Strategy and Architecture, Vodafone</span>
+                    <a class="my-4 pt-[10px] text-[#1264a3] text-lg font-semibold" href="#">See more customer stories <i class="fa-solid fa-arrow-right text-[#1264a3] ml-2"></i></a>
+                </div>
+            </div>
+            <div class="mx-[56px] mt-16 text-sm flex justify-center">
+                <p class="pb-2"><sup>*</sup> Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).</p>
+            </div>
+        </section>
         <!-- Section 7 -->
-        <section></section>
+        <section class="py-8 mt-4 flex flex-col bg-[#f4ede4]">
+            <h1 class="mx-[56px] mt-[20px] text-center mb-4 text-[32px] font-bold">Take a deeper dive into a new way to work</h1>
+            <div class="mx-[56px] pb-6 mt-[32px] mb-4 flex justify-between">
+                <div class="bg-white p-3 flex flex-col w-[23%] h-[420px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 justify-between shadow-lg">
+                    <div class="flex flex-col">
+                        <img class="" src="https://a.slack-edge.com/b37cac3/marketing/img/promos/promo-card-dreamforce-2023.png">
+                        <span class="mt-3">Event</span>
+                        <h3 class="mt-2 text-[24px] font-bold">Ready for the future of AI in Slack?</h3>
+                    </div>
+                    <div class="flex justify-between mr-2">
+                        <a href="#" class="font-semibold text-[#1264a3]">WATCH ON DEMAND</a>
+                        <i class="fa-solid fa-arrow-right text-[#1264a3] ml-2"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-3 flex flex-col w-[23%] h-[420px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 justify-between shadow-lg">
+                    <div class="flex flex-col">
+                        <img class="" src="https://a.slack-edge.com/971bef2/marketing/img/promos/slack-turns-10-blog.jpg">
+                        <span class="mt-3">Blog</span>
+                        <h3 class="mt-2 text-[24px] font-bold">Ten features to know (and love) on Slack’s tenth birthday</h3>
+                    </div>
+                    <div class="flex justify-between mr-2 ">
+                        <a href="#" class="font-semibold text-[#1264a3]">Read more</a>
+                        <i class="fa-solid fa-arrow-right text-[#1264a3] ml-2"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-3 flex flex-col w-[23%] h-[420px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 justify-between shadow-lg">
+                    <div class="flex flex-col">
+                        <img class="" src="https://a.slack-edge.com/426ed86/marketing/img/promos/promo-open-ai.jpg">
+                        <span class="mt-3">Customer story</span>
+                        <h3 class="mt-2 text-[24px] font-bold">How OpenAI expands ChatGPT with Slack</h3>
+                    </div>
+                    <div class="flex justify-between mr-2">
+                        <a href="#" class="font-semibold text-[#1264a3]">Read more</a>
+                        <i class="fa-solid fa-arrow-right text-[#1264a3] ml-2"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-3 flex flex-col w-[23%] h-[420px] cursor-pointer hover:shadow-xl hover:scale-105 duration-300 justify-between shadow-lg">
+                    <div class="flex flex-col">
+                        <img class="" src="https://a.slack-edge.com/426ed86/marketing/img/promos/promo-boost-productivity.jpg">
+                        <span class="mt-3">Webinar</span>
+                        <h3 class="mt-2 text-[24px] font-bold">Top Slack tips to boost productivity</h3>
+                    </div>
+                    <div class="flex justify-between mr-2">
+                        <a href="#" class="font-semibold text-[#1264a3]">Watch now</a>
+                        <i class="fa-solid fa-arrow-right text-[#1264a3] ml-2"></i>
+                    </div>
+                </div>
+            </div>                
+        </section>
         <!-- Section 8 -->
         <section></section>
     </main>
