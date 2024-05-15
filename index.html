@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Website logo -->
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" type="image/x-icon">
+    <style>
+        #section_8 {
+            background-image: url('./Assets/1.png');
+            background-size: cover;
+            /* background-size: contain; */
+        }
+    </style>
 </head> 
 <body>
     <nav class="bg-white w-full h-[80px] font-semibold flex items-center px-[54px] justify-between sticky top-2 z-10 rounded-full">
@@ -121,7 +128,7 @@
         <!-- Section 6 -->
         <section class="w-full">
             <div class="flex justify-between w-full">
-                <div class="mb-4 w-1/2 relative flex justify-center items-center">
+                <div class="mb-4 w-1/2 relative flex justify-center items-center cursor-pointer">
                     <video class="rounded-r-full" src="https://a.slack-edge.com/1b4e2a3/marketing/img/homepage/true-prospects/customer-showcase/Vodafone_08.mp4" autoplay loop muted></video>
                     <svg width="84" height="60" class="bg-[#36c5f0] absolute"><g fill="none" transform="translate(0 .564)"><rect height="59" rx="4" width="84"></rect><path d="M49 29.95L35 36.9V23L49 29.95Z" fill="#fff"></path></g></svg>
                 </div>
@@ -187,7 +194,15 @@
             </div>                
         </section>
         <!-- Section 8 -->
-        <section></section>
+        <section id="section_8" class="py-[100px]">
+            <div class="mx-[216px] flex flex-col items-center">
+                <h3 class="mb-8 text-white font-bold text-[46px]">See all that you can accomplish with Slack</h3>
+                <div class="flex gap-2">
+                    <button class="py-[19px] px-[40px] font-bold text-[#611f69] bg-white rounded">Try for free</button>
+                    <button class="py-[19px] px-[40px] font-bold border border-white text-white bg-transparent rounded">Talk to sales</button>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
